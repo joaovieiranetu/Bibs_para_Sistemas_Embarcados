@@ -1,4 +1,4 @@
-#include <avr/io.h> //Biblioteca utilizada para acessar os registradores do ATmega328P
+#include <avr/io.h>
 
 void Config_pinos(){  //Função inicial para configurar os pinos do LCD como saída (RS, E e pinos de dados)
   DDRD |= (1 << PD7); //Configura o pino 7 como saída, responsável pelo RS
