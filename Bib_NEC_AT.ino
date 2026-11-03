@@ -1,4 +1,4 @@
-#include <avr/io.h>  //Permite configurarmos os registradores
+#include <avr/io.h> 
 
 unsigned int tempo_HIGH_NEC;  //Variável criada para armazenar o tempo que o pino fica em HIGH
 unsigned int tempo_LOW_NEC;   //Variável criada para armazenar o tempo que o pino fica em LOW
